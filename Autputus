@@ -1,0 +1,153 @@
+local BlekLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+
+local win = BlekLib:Create({
+    Name = "Autput",
+    StartupSound = {
+        Toggle = false,
+        SoundID = "rbxassetid://6958727243",
+        TimePosition = 1
+    }
+})
+
+local MM2tab = win:Tab('MM2')
+local Naturaltab = win:Tab('Natural disasters')
+local Buildtab = win:Tab('Build a boat')
+local doortab = win:Tab('Doors')
+local playertab = win:Tab('Player')
+local uitab = win:Tab('UI')
+
+MM2tab:Button('Void hub', function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Psxvoidyx/Murdermysvoid2/main/Darkxyz23'),true))()
+end)
+
+MM2tab:Button('Lunar hub', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+end)
+
+MM2tab:Button('Dreadz hub', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+end)
+
+MM2tab:Button('Admin panel', function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/e89Mn4Ec'))()
+end)
+
+MM2tab:Button('Vynixius hub', function()
+    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+MM2tab:Button('Dark client hub', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ECCeYtXA"))()
+end)
+
+Naturaltab:Button('Natural disasters hub', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Natural%20Disaster'))()
+end)
+
+Naturaltab:Button('Voidz', function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+end)
+
+Naturaltab:Button('No name', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/H95fDhwG"))()
+end)
+
+Naturaltab:Button('NDS Gui', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+end)
+
+Naturaltab:Button('NDS hub', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
+end)
+
+Naturaltab:Button('No name', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1gbYJhgD"))()
+end)
+
+Naturaltab:Button('DisasterHAX', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/r9t5QVig"))()
+end)
+
+Buildtab:Button('Neverlose', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mana42138/Neverlose-UI/main/Scripts/Build%20A%20Boat.lua"))()
+end)
+
+Buildtab:Button('ExyGantenk', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExyXyz/ExyGantenk/main/ExyBABFT"))()
+end)
+
+Buildtab:Button('No name', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+end)
+
+Buildtab:Button('LXS hub', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0KLv0p2g"))()
+end)
+
+Buildtab:Button('No name', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/cWRyG8w4"))()
+end)
+
+Buildtab:Button('No name', function()
+    loadstring(game:HttpGet("https://gitlab.com/vugiakhiem2106/Universal/-/raw/main/ScriptLoader.lua"))()
+end)
+
+doortab:Button('King hub', function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+end)
+
+doortab:Button('Grenade', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/x0YVrBkd", true))()
+end)
+
+doortab:Button('Bazooka', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/persopoiu/scripts/main/RocketLauncher/script.lua"))()
+end)
+
+doortab:Button('Seek gun', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/persopoiu/scripts/main/seekgun.lua"))()
+end)
+
+doortab:Button('Stop time', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/g7St0DzR"))()
+end)
+
+doortab:Button('Shears', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/shears_done.lua"))()
+end)
+
+doortab:Button('Banana gun', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/BananaGunByNerd.lua"))()
+end)
+
+doortab:Button('Magnet', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/MagnetByNerd.lua"))()
+end)
+
+doortab:Button('DarkaiX', function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+playertab:Button('Sword modifier', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/tsbVWZdP"))()
+end)
+
+playertab:Button('Hitbox', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/GJXmG044"))()
+end)
+
+playertab:Button('ESP and Aimbot', function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+end)
+
+playertab:Button('Shift', function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/QuzRq57a"))()
+end)
+
+playertab:Button('Keyboard', function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+end)
+
+uitab:Button('Destroy GUI', function()
+    win:Exit()
+end)
